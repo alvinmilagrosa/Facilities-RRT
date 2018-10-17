@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>description</name>
+        <rest_message_function display_value="Insert Facilities RRT">047efa88dbd123004ce99b81ca961961</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-17 12:33:58</sys_created_on>
+        <sys_id>e2390b00db1523004ce99b81ca96196a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="Facilities RRT" source="x_alori_facilities">5ee1e1fc130c13009fffbae32244b077</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facilities RRT">5ee1e1fc130c13009fffbae32244b077</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_e2390b00db1523004ce99b81ca96196a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-17 12:42:07</sys_updated_on>
+        <type>string</type>
+        <value>testing descriptionm</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

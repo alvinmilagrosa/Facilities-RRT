@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_alori_facilities_facilities_rrt</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Insert Using Api</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	gs.addInfoMessage("Trigger ServiceNow Facilities RRT API Post");
+	try {
+		var r = new sn_ws.RESTMessageV2('x_alori_facilities.APIRestFacilities', 'Insert Facilities RRT');
+		r.setEndpoint('https://dev59696.service-now.com/api/now/table/x_alori_facilities_facilities_rrt');
+		r.setHttpMethod('POST');
+		
+		
+		var user = 'FacilitiesRRT';
+		var password = 'System@admin';
+		r.setBasicAuth(user,password);
+		r.setRequestHeader("Accept","application/json");
+		r.setRequestHeader('Content-Type','application/json');
+		r.setRequestHeader('Content-Type','application/json');
+// 		r.setRequestBody("{\"u_requestor\":\"Alvin\",\"u_requestor_location\":\"Anaheim\",\"location\":\"Americas\",\"callback_number\":\"1\",\"floor_number\":\"1\",\"u_business_unit_facilities\":\"Shared Services\",\"u_company_impacted\":\"Alorica\",\"u_reference_1\":\"ACME Africa\",\"u_start_date\":\"2018-10-17\",\"category\":\"Electrical\",\"sub_category\":\"Defective projector\",\"short_description\":\"asdasd\",\"description\":\"asdasd\"}");
+			
+			
+		var response = r.executeAsync();
+		gs.addInfoMessage(response.getBody());
+			// 		var response = r.executeAsync();
+			// 		var responseBody = response.getBody();
+			// 		var httpStatus = response.getStatusCode();
+		}
+		catch(ex) {
+			gs.addErrorMessage(ex);
+			var message = ex.getMessage();
+		}
+		
+	})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-17 13:04:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>240e8b40db1523004ce99b81ca961951</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>Insert Using Api</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Facilities RRT" source="x_alori_facilities">5ee1e1fc130c13009fffbae32244b077</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Facilities RRT">5ee1e1fc130c13009fffbae32244b077</sys_scope>
+        <sys_update_name>sys_script_240e8b40db1523004ce99b81ca961951</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-17 14:57:05</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=240e8b40db1523004ce99b81ca961951"/>
+</record_update>
