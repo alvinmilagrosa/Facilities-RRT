@@ -10,19 +10,17 @@
         <next_question/>
         <order>100</order>
         <payload_name/>
-        <question display_value="Application File" name="Application File">6c6485322b1222006388bde417da15cf</question>
+        <question display_value="">6c6485322b1222006388bde417da15cf</question>
         <roles/>
         <script/>
         <sys_class_name>sys_wizard_answer</sys_class_name>
         <sys_created_by>amilagrosaadmin</sys_created_by>
         <sys_created_on>2018-03-18 05:57:40</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>4fe3b0a7dbbc13449e6f01a3ca9619e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Facilities RRT priority</sys_name>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Facilities RRT" source="x_alori_facilities">5ee1e1fc130c13009fffbae32244b077</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Facilities RRT">5ee1e1fc130c13009fffbae32244b077</sys_scope>
         <sys_update_name>sys_wizard_answer_4fe3b0a7dbbc13449e6f01a3ca9619e4</sys_update_name>
         <sys_updated_by>amilagrosaadmin</sys_updated_by>

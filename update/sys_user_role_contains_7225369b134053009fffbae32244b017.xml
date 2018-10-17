@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_user_role_contains">
     <sys_user_role_contains action="INSERT_OR_UPDATE">
-        <contains display_value="task_editor" name="task_editor">be569e23dc12200020c21c7f0f3eb867</contains>
+        <contains display_value="task_editor" name="task_editor">0956f6390a0a0bc50064623d5d51c556</contains>
         <role display_value="x_alori_facilities.facilities_rrt_user" name="x_alori_facilities.facilities_rrt_user">a3522130134c13009fffbae32244b0bc</role>
         <sys_class_name>sys_user_role_contains</sys_class_name>
         <sys_created_by>amilagrosaadmin</sys_created_by>
         <sys_created_on>2018-02-08 13:56:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>7225369b134053009fffbae32244b017</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>task_editor.x_alori_facilities.facilities_rrt_user</sys_name>
         <sys_package display_value="Facilities RRT" source="x_alori_facilities">5ee1e1fc130c13009fffbae32244b077</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Facilities RRT">5ee1e1fc130c13009fffbae32244b077</sys_scope>
         <sys_update_name>sys_user_role_contains_7225369b134053009fffbae32244b017</sys_update_name>
         <sys_updated_by>amilagrosaadmin</sys_updated_by>

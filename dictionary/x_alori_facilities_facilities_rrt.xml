@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Facilities RRT" max_length="40" name="x_alori_facilities_facilities_rrt" sizeclass="561" type="collection">
+    <element audit="true" extends="task" label="Facilities RRT" max_length="40" name="x_alori_facilities_facilities_rrt" type="collection">
         <element label="Callback number" mandatory="true" max_length="15" name="callback_number" type="string"/>
         <element choice="1" label="Category" mandatory="true" max_length="100" name="category" type="choice">
             <choice>
@@ -67,6 +67,13 @@
                 <element label="Shared Services" sequence="5" value="4"/>
             </choice>
         </element>
+        <element choice="1" label="Company impacted" max_length="40" name="u_company_impacted" type="choice">
+            <choice>
+                <element label="Alorica" value="1"/>
+                <element label="Alorica/Gatestone" value="3"/>
+                <element label="Gatestone" value="2"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Engaged Vendor" mandatory="true" max_length="40" name="u_engaged_vendor" reference="x_alori_facilities_vendor" type="reference"/>
         <element label="Facilities assignment group" mandatory="true" max_length="32" name="u_facilities_assigment_group" reference="sys_user_group" reference_qual="nameLIKEFacilities RRT^name!=Facilities RRT Help Desk^EQ" reference_qual_condition="nameLIKEFacilities RRT^name!=Facilities RRT Help Desk^EQ" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" dependent="u_facilities_assigment_group" dependent_on_field="u_facilities_assigment_group" label="Facilities assigned to" mandatory="true" max_length="32" name="u_facilities_assigned_to" reference="sys_user" type="reference" use_dependent_field="true"/>
@@ -83,26 +90,5 @@
         <element label="Requestor location" mandatory="true" max_length="32" name="u_requestor_location" reference="cmn_location" reference_qual="u_active=true^countryLIKEPhilippines^u_location_idISNOTEMPTY^ORstreetISNOTEMPTY^name!=Leyte Tacloban^name!=Quezon City, Philippines^EQ" reference_qual_condition="u_active=true^countryLIKEPhilippines^u_location_idISNOTEMPTY^ORstreetISNOTEMPTY^name!=Leyte Tacloban^name!=Quezon City, Philippines^EQ" type="reference"/>
         <element label="Issue start date" mandatory="true" max_length="40" name="u_start_date" type="glide_date_time"/>
         <element label="Time Worked not task" mandatory="true" max_length="40" name="u_time_worked" type="glide_time"/>
-        <index name="index">
-            <element name="u_assigned_to"/>
-        </index>
-        <index name="index2">
-            <element name="u_facilities_assigment_group"/>
-        </index>
-        <index name="index3">
-            <element name="u_reference_1"/>
-        </index>
-        <index name="index4">
-            <element name="u_facilities_assigned_to"/>
-        </index>
-        <index name="index5">
-            <element name="u_requestor_location"/>
-        </index>
-        <index name="index6">
-            <element name="u_engaged_vendor"/>
-        </index>
-        <index name="index7">
-            <element name="u_requestor"/>
-        </index>
     </element>
 </database>

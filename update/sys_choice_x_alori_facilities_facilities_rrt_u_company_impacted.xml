@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_company_impacted" table="x_alori_facilities_facilities_rrt" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_company_impacted</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alorica</label>
+            <language>en</language>
+            <name>x_alori_facilities_facilities_rrt</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 05:47:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af2c2dc8db1123004ce99b81ca9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 05:47:25</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_company_impacted</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gatestone</label>
+            <language>en</language>
+            <name>x_alori_facilities_facilities_rrt</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 05:46:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c60cedc8db1123004ce99b81ca9619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 05:46:49</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_company_impacted</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alorica/Gatestone</label>
+            <language>en</language>
+            <name>x_alori_facilities_facilities_rrt</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 05:47:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c61ca948db1123004ce99b81ca961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 05:47:02</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_company_impacted</element>
+            <name>x_alori_facilities_facilities_rrt</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 05:46:49</sys_created_on>
+            <sys_id>a01c2dc8db1123004ce99b81ca961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_company_impacted</sys_name>
+            <sys_package display_value="Facilities RRT" source="x_alori_facilities">5ee1e1fc130c13009fffbae32244b077</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Facilities RRT">5ee1e1fc130c13009fffbae32244b077</sys_scope>
+            <sys_update_name>sys_choice_x_alori_facilities_facilities_rrt_u_company_impacted</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 05:46:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

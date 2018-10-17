@@ -49,9 +49,7 @@
         <record_producer_table>x_alori_facilities_facilities_rrt</record_producer_table>
         <reference>cmn_location</reference>
         <reference_qual>u_active=true^countryLIKEPhilippines^u_location_idISNOTEMPTY^ORstreetISNOTEMPTY^name!=Leyte Tacloban^name!=Quezon City, Philippines^EQ</reference_qual>
-        <reference_qual_condition table="cmn_location">u_active=true^countryLIKEPhilippines^u_location_idISNOTEMPTY^ORstreetISNOTEMPTY^name!=Leyte Tacloban^name!=Quezon City, Philippines^EQ<item endquery="false" field="u_active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="country" goto="false" newquery="false" operator="LIKE" or="false" value="Philippines"/>
-            <item endquery="false" field="u_location_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        <reference_qual_condition table="cmn_location">u_active=true^countryLIKEPhilippines^u_location_idISNOTEMPTY^ORstreetISNOTEMPTY^name!=Leyte Tacloban^name!=Quezon City, Philippines^EQ<item endquery="false" field="country" goto="false" newquery="false" operator="LIKE" or="false" value="Philippines"/>
             <item endquery="false" field="street" goto="false" newquery="false" operator="ISNOTEMPTY" or="true" value=""/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="!=" or="false" value="Leyte Tacloban"/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="!=" or="false" value="Quezon City, Philippines"/>
@@ -66,13 +64,11 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>amilagrosaadmin</sys_created_by>
         <sys_created_on>2018-02-01 14:46:03</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>e44c7a0d130853009fffbae32244b0c4</sys_id>
         <sys_mod_count>13</sys_mod_count>
         <sys_name>What is requestor' s location?</sys_name>
         <sys_package display_value="Facilities RRT" source="x_alori_facilities">5ee1e1fc130c13009fffbae32244b077</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Facilities RRT">5ee1e1fc130c13009fffbae32244b077</sys_scope>
         <sys_update_name>item_option_new_e44c7a0d130853009fffbae32244b0c4</sys_update_name>
         <sys_updated_by>amilagrosaadmin</sys_updated_by>
@@ -80,7 +76,6 @@
         <table/>
         <tooltip/>
         <type>8</type>
-        <u_add_choices/>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>

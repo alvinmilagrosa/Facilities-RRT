@@ -5,20 +5,20 @@
         <availability>on_both</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Non-IT Requests">ffa2056b2bf67d00d013ac4a89da1591</category>
+        <category display_value="">ffa2056b2bf67d00d013ac4a89da1591</category>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p><strong style="color: #343d47;"><span style="color: #ff0000;">&nbsp; &nbsp; &nbsp; &nbsp; For help and guidance on Business Unit:&nbsp;</span></strong><strong style="color: #343d47;"><a style="color: #278efc;" href="https://alorica.service-now.com/kb_view.do?sysparm_article=KB0010238" target="_blank">Click Here</a></strong></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>]]></description>
+        <description><![CDATA[<p><strong style="color: #343d47;"><span style="color: #ff0000;">        For help and guidance on Business Unit: </span></strong><strong style="color: #343d47;"><a style="color: #278efc;" href="https://alorica.service-now.com/kb_view.do?sysparm_article&#61;KB0010238" target="_blank" rel="nofollow">Click Here</a></strong></p>
+<p> </p>
+<p> </p>]]></description>
         <entitlement_script/>
         <group/>
         <hide_sp>false</hide_sp>
         <icon/>
-        <ignore_price>false</ignore_price>
+        <ignore_price>true</ignore_price>
         <image/>
         <list_price>0</list_price>
         <location/>
@@ -54,21 +54,18 @@
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>amilagrosaadmin</sys_created_by>
         <sys_created_on>2018-02-01 14:28:07</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>5ce836c9130853009fffbae32244b07e</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Facilities Management RRT </sys_name>
         <sys_package display_value="Facilities RRT" source="x_alori_facilities">5ee1e1fc130c13009fffbae32244b077</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Facilities RRT">5ee1e1fc130c13009fffbae32244b077</sys_scope>
         <sys_update_name>sc_cat_item_producer_5ce836c9130853009fffbae32244b07e</sys_update_name>
-        <sys_updated_by>amilagrosaadmin</sys_updated_by>
-        <sys_updated_on>2018-03-18 06:10:36</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-17 05:37:22</sys_updated_on>
         <table_name>x_alori_facilities_facilities_rrt</table_name>
         <template/>
         <type>item</type>
-        <u_catalog_item_owner/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <view/>
