@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="Facilities RRT priority" max_length="40" name="x_alori_facilities_facilities_rrt_priority" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" choice_field="u_priority" choice_table="x_alori_facilities_facilities_rrt" label="Priority" max_length="10" name="priority" type="choice">
+            <choice/>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" choice_field="sub_category" choice_table="x_alori_facilities_facilities_rrt" label="Sub category" max_length="100" name="sub_category" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>

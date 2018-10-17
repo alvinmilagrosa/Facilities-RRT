@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_requestor</field>
+        <global>true</global>
+        <messages/>
+        <name>Get Current Location Onchange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	var userInfo = new GlideAjax('global.GetCurrentUserInfo'); //Script include that get information of the user
+	userInfo.addParam('sysparm_name','getCurrentInfo');
+	userInfo.addParam('currentSysID',newValue);	//pass the current user userid
+	userInfo.getXML(userInfoParse);
+	
+	function userInfoParse(response){
+		var myObj = response.responseXML.documentElement.getAttribute('answer');
+		var members = JSON.parse(myObj);
+		//console.log(members);
+		if(members.length>0)
+			{
+			//for (var i=0; i< members.length; i++) { //no need to loop because were looking for just one result only
+				//alert( members[i].Location);
+				g_form.setValue('u_requestor_location', members[0].Location);//  get the location in the array of user from script include pass it to variable u_requestor_location
+				g_form.setValue('location', members[0].Location);//  get the location in the array of user from script include pass it to variable location
+				//}
+			}
+		}
+		//AM was here 3/06
+		
+		//Type appropriate comment here, and begin script below
+		
+		//Type appropriate comment here, and begin script below
+		
+	}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>amilagrosaadmin</sys_created_by>
+        <sys_created_on>2018-03-06 08:11:24</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>cf3fd7e3132c53409fffbae32244b035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Current Location Onchange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Facilities RRT" source="x_alori_facilities">5ee1e1fc130c13009fffbae32244b077</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Facilities RRT">5ee1e1fc130c13009fffbae32244b077</sys_scope>
+        <sys_update_name>sys_script_client_cf3fd7e3132c53409fffbae32244b035</sys_update_name>
+        <sys_updated_by>amilagrosaadmin</sys_updated_by>
+        <sys_updated_on>2018-03-06 08:11:24</sys_updated_on>
+        <table>x_alori_facilities_facilities_rrt</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

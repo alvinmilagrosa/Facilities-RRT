@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="7c373689130853009fffbae32244b075" sys_domain="global" table="x_alori_facilities_facilities_rrt" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>amilagrosaadmin</sys_created_by>
+            <sys_created_on>2018-02-01 14:19:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>34373689130853009fffbae32244b078</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_alori_facilities_facilities_rrt" name="x_alori_facilities_facilities_rrt" sys_domain="global" view="Default view">7c373689130853009fffbae32244b075</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_alori_facilities_facilities_rrt" sys_domain="global" view="Default view">d3c2e9fc130c13009fffbae32244b031</sys_ui_section>
+            <sys_updated_by>amilagrosaadmin</sys_updated_by>
+            <sys_updated_on>2018-02-01 14:19:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>amilagrosaadmin</sys_created_by>
+            <sys_created_on>2018-02-01 14:19:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fc373689130853009fffbae32244b078</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_alori_facilities_facilities_rrt" name="x_alori_facilities_facilities_rrt" sys_domain="global" view="Default view">7c373689130853009fffbae32244b075</sys_ui_form>
+            <sys_ui_section caption="Other Information" display_value="Other Information" name="x_alori_facilities_facilities_rrt" sys_domain="global" view="Default view">3c373689130853009fffbae32244b073</sys_ui_section>
+            <sys_updated_by>amilagrosaadmin</sys_updated_by>
+            <sys_updated_on>2018-02-01 14:19:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>amilagrosaadmin</sys_created_by>
+            <sys_created_on>2018-02-01 14:19:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>78373689130853009fffbae32244b07c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_alori_facilities_facilities_rrt" name="x_alori_facilities_facilities_rrt" sys_domain="global" view="Default view">7c373689130853009fffbae32244b075</sys_ui_form>
+            <sys_ui_section caption="Comments Notes Activities" display_value="Comments Notes Activities" name="x_alori_facilities_facilities_rrt" sys_domain="global" view="Default view">38373689130853009fffbae32244b074</sys_ui_section>
+            <sys_updated_by>amilagrosaadmin</sys_updated_by>
+            <sys_updated_on>2018-02-01 14:19:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>amilagrosaadmin</sys_created_by>
+            <sys_created_on>2018-02-01 14:19:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f4373689130853009fffbae32244b080</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_alori_facilities_facilities_rrt" name="x_alori_facilities_facilities_rrt" sys_domain="global" view="Default view">7c373689130853009fffbae32244b075</sys_ui_form>
+            <sys_ui_section caption="Closure" display_value="Closure" name="x_alori_facilities_facilities_rrt" sys_domain="global" view="Default view">30373689130853009fffbae32244b075</sys_ui_section>
+            <sys_updated_by>amilagrosaadmin</sys_updated_by>
+            <sys_updated_on>2018-02-01 14:19:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_alori_facilities_facilities_rrt</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>amilagrosaadmin</sys_created_by>
+            <sys_created_on>2018-02-01 14:19:19</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>7c373689130853009fffbae32244b075</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_alori_facilities_facilities_rrt</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Facilities RRT" source="x_alori_facilities">5ee1e1fc130c13009fffbae32244b077</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Facilities RRT">5ee1e1fc130c13009fffbae32244b077</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7c373689130853009fffbae32244b075</sys_update_name>
+            <sys_updated_by>amilagrosaadmin</sys_updated_by>
+            <sys_updated_on>2018-02-01 14:19:19</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

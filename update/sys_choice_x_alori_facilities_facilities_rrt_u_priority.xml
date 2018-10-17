@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_priority" table="x_alori_facilities_facilities_rrt" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>P1</label>
+            <language>en</language>
+            <name>x_alori_facilities_facilities_rrt</name>
+            <sequence/>
+            <sys_created_by>amilagrosaadmin</sys_created_by>
+            <sys_created_on>2018-03-08 10:44:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cea592d013b0d3409fffbae32244b099</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>amilagrosaadmin</sys_updated_by>
+            <sys_updated_on>2018-03-08 10:44:34</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>P2</label>
+            <language>en</language>
+            <name>x_alori_facilities_facilities_rrt</name>
+            <sequence/>
+            <sys_created_by>amilagrosaadmin</sys_created_by>
+            <sys_created_on>2018-03-08 10:44:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d5b59a9013b0d3409fffbae32244b000</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>amilagrosaadmin</sys_updated_by>
+            <sys_updated_on>2018-03-08 10:44:46</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>P3</label>
+            <language>en</language>
+            <name>x_alori_facilities_facilities_rrt</name>
+            <sequence/>
+            <sys_created_by>amilagrosaadmin</sys_created_by>
+            <sys_created_on>2018-03-08 10:44:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f2b5de9013b0d3409fffbae32244b09c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>amilagrosaadmin</sys_updated_by>
+            <sys_updated_on>2018-03-08 10:44:53</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>P4</label>
+            <language>en</language>
+            <name>x_alori_facilities_facilities_rrt</name>
+            <sequence/>
+            <sys_created_by>amilagrosaadmin</sys_created_by>
+            <sys_created_on>2018-03-08 10:44:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>10c5d2d013b0d3409fffbae32244b071</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>amilagrosaadmin</sys_updated_by>
+            <sys_updated_on>2018-03-08 10:44:59</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_priority</element>
+            <name>x_alori_facilities_facilities_rrt</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>amilagrosaadmin</sys_created_by>
+            <sys_created_on>2018-03-08 10:44:34</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b3e334a7dbbc13449e6f01a3ca961982</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_name>u_priority</sys_name>
+            <sys_package display_value="Facilities RRT" source="x_alori_facilities">5ee1e1fc130c13009fffbae32244b077</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Facilities RRT">5ee1e1fc130c13009fffbae32244b077</sys_scope>
+            <sys_update_name>sys_choice_x_alori_facilities_facilities_rrt_u_priority</sys_update_name>
+            <sys_updated_by>amilagrosaadmin</sys_updated_by>
+            <sys_updated_on>2018-03-08 10:44:56</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

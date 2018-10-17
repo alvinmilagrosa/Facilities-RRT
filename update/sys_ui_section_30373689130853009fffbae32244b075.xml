@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Closure" section_id="30373689130853009fffbae32244b075" sys_domain="global" table="x_alori_facilities_facilities_rrt" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_by</element>
+            <position>0</position>
+            <sys_created_by>amilagrosaadmin</sys_created_by>
+            <sys_created_on>2018-02-13 10:39:36</sys_created_on>
+            <sys_id>57f77b7413d417006e9c56022244b09e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure" display_value="Closure" name="x_alori_facilities_facilities_rrt" sys_domain="global" view="Default view">30373689130853009fffbae32244b075</sys_ui_section>
+            <sys_updated_by>amilagrosaadmin</sys_updated_by>
+            <sys_updated_on>2018-02-13 10:39:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>amilagrosaadmin</sys_created_by>
+            <sys_created_on>2018-02-13 10:39:36</sys_created_on>
+            <sys_id>dbf77b7413d417006e9c56022244b09e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure" display_value="Closure" name="x_alori_facilities_facilities_rrt" sys_domain="global" view="Default view">30373689130853009fffbae32244b075</sys_ui_section>
+            <sys_updated_by>amilagrosaadmin</sys_updated_by>
+            <sys_updated_on>2018-02-13 10:39:36</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_at</element>
+            <position>2</position>
+            <sys_created_by>amilagrosaadmin</sys_created_by>
+            <sys_created_on>2018-02-13 10:39:36</sys_created_on>
+            <sys_id>5ff77b7413d417006e9c56022244b09e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure" display_value="Closure" name="x_alori_facilities_facilities_rrt" sys_domain="global" view="Default view">30373689130853009fffbae32244b075</sys_ui_section>
+            <sys_updated_by>amilagrosaadmin</sys_updated_by>
+            <sys_updated_on>2018-02-13 10:39:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Closure</caption>
+            <header>false</header>
+            <name>x_alori_facilities_facilities_rrt</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>amilagrosaadmin</sys_created_by>
+            <sys_created_on>2018-02-01 14:19:19</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>30373689130853009fffbae32244b075</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Closure</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Facilities RRT" source="x_alori_facilities">5ee1e1fc130c13009fffbae32244b077</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Facilities RRT">5ee1e1fc130c13009fffbae32244b077</sys_scope>
+            <sys_update_name>sys_ui_section_30373689130853009fffbae32244b075</sys_update_name>
+            <sys_updated_by>amilagrosaadmin</sys_updated_by>
+            <sys_updated_on>2018-02-01 14:19:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

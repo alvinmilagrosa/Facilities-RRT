@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Facilities Vendor" max_length="40" name="x_alori_facilities_vendor" type="collection">
+        <element display="true" label="Vendor Name" max_length="200" name="vendor_name" type="string" unique="true"/>
+        <index name="index">
+            <element name="vendor_name"/>
+        </index>
+        <index name="index2">
+            <element name="vendor_name"/>
+        </index>
+    </element>
+</database>

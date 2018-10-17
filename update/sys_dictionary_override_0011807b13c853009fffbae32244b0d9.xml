@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value>3</default_value>
+        <default_value_override>true</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>impact</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_alori_facilities_facilities_rrt</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>amilagrosaadmin</sys_created_by>
+        <sys_created_on>2018-02-09 14:07:14</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0011807b13c853009fffbae32244b0d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>impact</sys_name>
+        <sys_package display_value="Facilities RRT" source="x_alori_facilities">5ee1e1fc130c13009fffbae32244b077</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Facilities RRT">5ee1e1fc130c13009fffbae32244b077</sys_scope>
+        <sys_update_name>sys_dictionary_override_0011807b13c853009fffbae32244b0d9</sys_update_name>
+        <sys_updated_by>amilagrosaadmin</sys_updated_by>
+        <sys_updated_on>2018-02-09 14:07:14</sys_updated_on>
+    </sys_dictionary_override>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Facilities Sites" max_length="40" name="x_alori_facilities_facilities_sites" type="collection">
+        <element display="true" label="Site Location" max_length="40" name="site_location" type="string"/>
+    </element>
+</database>

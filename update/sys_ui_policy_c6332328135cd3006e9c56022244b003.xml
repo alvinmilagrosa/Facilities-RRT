@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	alert('test dfalse');
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	var userIDs = g_form.getValue('u_facilities_assigned_to');
+	if(userIDs ==  g_user.userID)
+		{
+		alert('test');
+		var refs = document.getElementsByTagName("BUTTON");
+		alert('test1');
+		console.log('test log' + refs);
+		//Remove the Submit button
+		if (refs) {
+			for (var i=0; i < refs.length; i++) {
+				var ref = refs;
+				var inner = ref.innerHTML;
+				//check for the 'Submit' value on the button
+				if (inner == 'Update'){
+					ref.style.display = 'none';
+				}
+			}
+		}
+		
+	}
+	
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide Update button for Facilities assigned to</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>amilagrosaadmin</sys_created_by>
+        <sys_created_on>2018-02-12 14:32:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>c6332328135cd3006e9c56022244b003</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Hide Update button for Facilities assigned to</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Facilities RRT" source="x_alori_facilities">5ee1e1fc130c13009fffbae32244b077</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Facilities RRT">5ee1e1fc130c13009fffbae32244b077</sys_scope>
+        <sys_update_name>sys_ui_policy_c6332328135cd3006e9c56022244b003</sys_update_name>
+        <sys_updated_by>amilagrosaadmin</sys_updated_by>
+        <sys_updated_on>2018-02-12 14:48:28</sys_updated_on>
+        <table>x_alori_facilities_facilities_rrt</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
